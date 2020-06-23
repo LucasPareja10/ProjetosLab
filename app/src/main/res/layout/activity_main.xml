@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/btnPosição"
+        android:layout_width="327dp"
+        android:layout_height="62dp"
+        android:text="Atualiza posição"
+        tools:layout_editor_absoluteX="42dp"
+        tools:layout_editor_absoluteY="28dp" />
+
+    <fragment
+        android:id="@+id/nossoMapa"
+        android:layout_width="match_parent"
+        android:layout_height="342dp"
+        class="com.google.android.gms.maps.SupportMapFragment"
+        android:layout_weight="0.54"/>
+
+</LinearLayout>
